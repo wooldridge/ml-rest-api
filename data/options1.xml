@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<options xmlns="http://marklogic.com/appservices/search">
+  <constraint name="type">
+    <range collation="http://marklogic.com/collation/" facet="true" type="xs:string">
+      <element name="covering" ns="" xmlns:es="http://marklogic.com/entity-services"/>
+      <facet-option>limit=5</facet-option>
+    </range>
+  </constraint>
+  <search-option>unfiltered</search-option>
+  <return-facets>true</return-facets>
+  <return-query>true</return-query>
+</options>

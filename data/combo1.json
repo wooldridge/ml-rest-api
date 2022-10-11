@@ -1,0 +1,29 @@
+{
+  "search": {
+    "qtext": "dog",
+    "options": {
+      "constraint": [
+        {
+          "name": "type",
+          "range": {
+            "collation": "http://marklogic.com/collation/",
+            "facet": true,
+            "type": "xs:string",
+            "element": {
+              "name": "covering",
+              "ns": ""
+            },
+            "facet-option": [
+              "limit=5"
+            ]
+          }
+        }
+      ],
+      "search-option": [
+        "unfiltered"
+      ],
+      "return-facets": true,
+      "return-query": true
+    }
+  }
+}

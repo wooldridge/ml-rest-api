@@ -1,0 +1,7 @@
+{
+	"pet": {
+		"type": "dog",
+		"covering": "fur",
+		"sound": "bark"
+	}
+}
